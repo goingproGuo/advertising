@@ -3,11 +3,14 @@ package com.qsc.advertising;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author guoyu
+ */
 @SpringBootApplication
-public class AdvertisingApplication {
+public class App {
 
     public static void main(String[] args) {
-        SpringApplication.run(AdvertisingApplication.class, args);
+        SpringApplication.run(App.class, args);
     }
 
 }
